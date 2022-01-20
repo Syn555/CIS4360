@@ -1,1 +1,10 @@
-
+Being new to Microservice Architecture (MSA), I wasn't sure what to expect nor did I know exactly what MSA is. When reading "Innovation Insight for Micro" by Gartner,
+it was really interesting and eye opening on what MSA are, to not only its advantages but also its disadvantages. As I have stated before I didn't really have a define idea of 
+what microservies were, it was just what I thought what it sounded like, which to me it was related to a reusable software/service. However, the reading definition was 
+"a complex architectural paradigm that developers use to build new applications or to rearchitect existing applications". And when comparing my misconception with Gartner, 
+my ideal was more of an "antipattern in the microservices paradigm" because reuse creates dependecies and affect agility. Which one of the main points for MSA is due to it's
+agility to develop applications. Another benefit that caught my interest but unfortunately was only light talked about in it's benefits was MSA's "resiliency" and how 
+"MSA design patterns can yield self-healing applications that can continue operating in the face of partial outages, and that can recover rapidly and gracefully". I guess this is 
+more specific/situational case, there that was why it wasn't too much talked about. When further reading into the "Risks" section, I was surprised about "how costly" MSA is and
+its' frequent occurance resulting in disappoint from many company. I will not lie, I wish that in the reading it provided some statistics so I can really observe the success 
+rate of MSA but I'll take the reading word as benefit of the doubt and trust what it states.  
