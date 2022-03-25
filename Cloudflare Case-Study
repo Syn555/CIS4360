@@ -11,4 +11,8 @@
   and can do more than a function, which is what workers behave more as. (Note: A function is a small bit of code that performs only one action 
   in response to an event). However, even if microservice can do more than workers, it can also do the same thing as workers. For example, 
   if a developer divides an application into smaller codes each being equivalent to a size of a function. The application can then be made up of 
-  multiple of functions (aka workers). The only down side is that each function can then only perform one task.
+  multiple of functions (aka workers). 
+  
+  	The main benefit of this that it makes it easier to scale code and is more cost-efficient way to implement microservices. 
+  Unfortunately, the downsides of this is having less system control due to it being managed by a third party and more complexity 
+  required for testing an application.
