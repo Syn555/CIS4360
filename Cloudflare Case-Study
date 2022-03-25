@@ -1,0 +1,14 @@
+                                                               Cloudflare Case-Study
+	        Cloudflare is a global network designed to make everything you connect to the internet secure and private. 
+  Cloudflare Workers behave similar to JavaScript in the browser or in Node.js. Worker’s runtime uses the V8 engine and the runtime also 
+  implements many of the standard APIs in most browsers. Instead of running on an individual machine, workers run on the Cloudflare network 
+  across thousands of machines, each machine that host an instance of the workers runtime and capable of running thousands of user-define applications.
+ 	
+          There are ways in which Cloudflare workers can be used to work as microservices or at least very similar to it. 
+  “Cloudflare Workers are pieces of JavaScript code that are hosted within the Cloudflare edge network and run-in response to HTTP requests. 
+  Workers behave more like functions but offer the flexibility to also work as microservices; Cloudflare does not limit the size or type 
+  of Workers those developers can build and deploy.” As stated, the main difference between microservice and workers are that microservice are larger 
+  and can do more than a function, which is what workers behave more as. (Note: A function is a small bit of code that performs only one action 
+  in response to an event). However, even if microservice can do more than workers, it can also do the same thing as workers. For example, 
+  if a developer divides an application into smaller codes each being equivalent to a size of a function. The application can then be made up of 
+  multiple of functions (aka workers). The only down side is that each function can then only perform one task.
